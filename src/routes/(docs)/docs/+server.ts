@@ -1,5 +1,5 @@
 import { json } from "@sveltejs/kit";
-                import { cookieSet } from "kitdocs/utils";
+                import { cookieSet } from "$lib/utils.js";
                 import type { DocTheme } from "kitdocs"
                 import type { RequestHandler } from "./$types.js";
                 
