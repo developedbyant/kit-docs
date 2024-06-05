@@ -1,0 +1,183 @@
+{
+    "projectName": "kitDocs",
+    "socialMedia": [
+        {
+            "name": "twitter",
+            "link": "https://x.com/developedByAnt"
+        },
+        {
+            "name": "github",
+            "link": "https://x.com/developedByAnt"
+        }
+    ],
+    "navLinks": [
+        {
+            "text": "Home",
+            "href": "/",
+            "external": false
+        },
+        {
+            "text": "Documentation",
+            "href": "/docs",
+            "external": false
+        },
+        {
+            "text": "installation",
+            "href": "/docs/getting-started",
+            "external": false
+        },
+        {
+            "text": "svelte",
+            "href": "https://kit.svelte.dev/",
+            "external": true
+        }
+    ],
+    "footerLinks": [
+        {
+            "title": "Quick links",
+            "links": [
+                {
+                    "text": "Home",
+                    "href": "/",
+                    "external": false
+                },
+                {
+                    "text": "Documentation",
+                    "href": "/docs",
+                    "external": false
+                }
+            ]
+        }
+    ],
+    "kitDocs": {
+        "Special tags": [
+            {
+                "layout": "Special tags",
+                "title": "Code highlight",
+                "href": "/docs/special-tags/code-highlight",
+                "description": "Highlight some code.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "code-highlight",
+                        "text": "Code highlight"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
+                    },
+                    {
+                        "id": "preview",
+                        "text": "Preview"
+                    }
+                ]
+            },
+            {
+                "layout": "Special tags",
+                "title": "Script",
+                "href": "/docs/special-tags/script",
+                "description": "DescriptionHere.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "script-tag",
+                        "text": "Script tag"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
+                    },
+                    {
+                        "id": "preview-code",
+                        "text": "Preview code"
+                    }
+                ]
+            },
+            {
+                "layout": "Special tags",
+                "title": "Space",
+                "href": "/docs/special-tags/space",
+                "description": "The warning tag let you add custom warning message to your page.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "space-tag",
+                        "text": "Space tag"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
+                    },
+                    {
+                        "id": "preview",
+                        "text": "Preview"
+                    }
+                ]
+            },
+            {
+                "layout": "Special tags",
+                "title": "Warning",
+                "href": "/docs/special-tags/warning",
+                "description": "The warning tag let you add custom warning message to your page.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "warning-tag",
+                        "text": "Warning tag"
+                    },
+                    {
+                        "id": "example",
+                        "text": "Example"
+                    },
+                    {
+                        "id": "preview",
+                        "text": "Preview"
+                    }
+                ]
+            }
+        ],
+        "Introduction": [
+            {
+                "layout": "Introduction",
+                "title": "KitDocs",
+                "href": "/docs",
+                "description": "Build documentation site using SvelteKit and kitDocs.",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "what-is-kitdocs",
+                        "text": "What is kitDocs?"
+                    },
+                    {
+                        "id": "getting-started",
+                        "text": "Getting Started"
+                    },
+                    {
+                        "id": "installation",
+                        "text": "Installation"
+                    },
+                    {
+                        "id": "add-plugin",
+                        "text": "Add plugin"
+                    },
+                    {
+                        "id": "pages-directory",
+                        "text": "Pages directory"
+                    },
+                    {
+                        "id": "create-page",
+                        "text": "Create page"
+                    },
+                    {
+                        "id": "project-structure",
+                        "text": "Project structure"
+                    },
+                    {
+                        "id": "layout",
+                        "text": "Layout"
+                    }
+                ]
+            }
+        ]
+    }
+}

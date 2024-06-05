@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.app{ scroll-behavior: smooth; }
+
+:root {
+    /* added by user */
+    --sb-nav-height: 60px;
+    --sb-max-width: 1400px;
+    /* size */
+    --sb-gap: 10px;
+    --sb-size: 15px;
+    --sb-radius: 10px;
+    /* to get y padding 10×1.5 = 15px */
+    --sb-padding: 10px;
+    /* app */
+    --sb-background: #FBFBFB;
+    --sb-foreground: #F4F4F5;
+    --sb-blur-bg: rgba(255, 255, 255, 50%);
+    --sb-header-color: #434343;
+    --sb-text-color: #717084;
+    --sb-border-color: #eeeeee;
+    --sb-icon-color: #838383;
+    --sb-icon-color-2: #adadad;
+    --sb-shadow: rgba(0, 0, 0, 5%);
+    --sb-main-color: #F96843;
+    --sb-second-color: #F98C71;
+    --sb-third-color: #9c67f5;
+    --sb-error-bg: #f18176;
+    --sb-error-color: #fff;
+    --sb-ok-bg: #5ecc86;
+    --sb-ok-color: #fff;
+    --sb-focus-color: #c1c1c1;
+    /* button */
+    --sb-button-bg: #2e51e8;
+    --sb-button-color: #fff;
+}
+
+.dark {
+    /* app */
+    --sb-background: #161618;
+    --sb-foreground: #27272A;
+    --sb-blur-bg: rgba(0, 0, 0, 50%);
+    --sb-header-color: #e9e9e9;
+    --sb-text-color: #a4a6a9;
+    --sb-text-focus-color: #6b728079;
+    --sb-border-color: rgb(46, 48, 53);
+    --sb-second-border-color: #3a72a31c;
+    --sb-icon-color: #aeaeae;
+    --sb-shadow: rgba(0, 0, 0, 5%);
+    --sb-focus-color: #434445;
+}
