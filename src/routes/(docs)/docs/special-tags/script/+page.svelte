@@ -4,7 +4,7 @@
         appName:"KitDocs",title:"Script",description:"DescriptionHere.",
         url:"https://kitdocs.dev/docs/special-tags/script",image:"https://kitdocs.dev/images/backdrop.png",ogType:"article" 
     });
-    import Test from "../../../../Test.svelte";
+    import Test from "../../../../Comp.svelte";
     let loading = $state(false);
     const onclick = ()=> loading = !loading
     /** Copy text to clipboard (Added by kitdocs) */
