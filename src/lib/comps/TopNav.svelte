@@ -18,8 +18,8 @@
         {@render Logo()}
         <ul class="topNavLinks" class:open={isSideNavOpen}>
             {#each topNavLinks as link }
-                { @const active = (link.href===$page.url.pathname && !link.external ) }
-                { @const attributes = { href:link.href, target:link.external?"_blank":"",onclick:closeTopNav } }
+                {@const active = (link.href===$page.url.pathname && !link.external )}
+                {@const attributes = { href:link.href, target:link.external?"_blank":"",onclick:closeTopNav }}
                 <li class="topNavLink">
                     <a class:active {...attributes}>
                         {link.text}
